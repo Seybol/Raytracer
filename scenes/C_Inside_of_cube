@@ -1,0 +1,91 @@
+
+CUBE
+{
+vertex_a:-30 -30 30
+vertex_b:30 30 -30
+reflection:0.8
+shine:0.15
+color:0 0 0
+}
+
+SPHERE
+{
+translate: 1 0 0
+shine:0.2
+reflection:0.1
+texture:textures/multi/t1.xpm
+bumpmap:textures/multi/t1.xpm
+}
+SPHERE
+{
+translate: -1 0 0
+color: 255 255 0
+shine:0.2
+reflection:0.1
+texture:textures/multi/t2.xpm
+bumpmap:textures/multi/t2.xpm
+}
+SPHERE
+{
+translate: 3 0 0
+color:0 255 0
+shine:0.2
+reflection:0.1
+texture:textures/multi/t9.xpm
+bumpmap:textures/multi/t9.xpm
+}
+SPHERE
+{
+translate: 1 3 0
+color:0 0 255
+shine:0.2
+reflection:0.1
+texture:textures/multi/t4.xpm
+bumpmap:textures/multi/t4.xpm
+}
+SPHERE
+{
+translate: 3 3 0
+color:255 0 255
+shine:0.2
+reflection:0.1
+texture:textures/multi/t5.xpm
+bumpmap:textures/multi/t5.xpm
+}
+SPHERE
+{
+translate: -3 0 0
+color:0 0 0
+shine:0.2
+reflection:0.1
+texture:textures/multi/t6.xpm
+bumpmap:textures/multi/t6.xpm
+}
+SPHERE
+{
+translate: -1 3 0
+color: 2 199 230
+shine:0.2
+reflection:0.1
+texture:textures/multi/t7.xpm
+bumpmap:textures/multi/t7.xpm
+}
+SPHERE
+{
+translate: -3 3 0
+color:255 255 255
+shine:0.2
+texture:textures/multi/t8.xpm
+bumpmap:textures/multi/t8.xpm
+}
+CAMERA
+{
+position:-4 2 15
+look_at:3 0 0
+}
+
+LIGHT
+{
+position:0 5 3
+}
+reflections:5

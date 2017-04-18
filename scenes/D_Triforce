@@ -1,0 +1,47 @@
+CAMERA
+{
+position:-2 4 14
+look_at:0 2 0
+}
+LIGHT
+{
+position:5 3 5
+color:200 200 0
+}
+CUBE
+{
+color: 255 255 0
+rotate_z:135
+reflection:0.1
+scale:1 1.3 1
+CUT
+{
+rotate_z:45
+}
+}
+CUBE
+{
+color: 255 255 0
+rotate_z:135
+translate:2.8 0 0
+scale:1 1.3 1
+reflection:0.1
+CUT
+{
+rotate_z:45
+}
+}
+CUBE
+{
+color: 255 255 0
+rotate_z:135
+translate:1.4 0 0
+scale:1 1.3 1
+translate:0 1.8 0
+reflection:0.1
+CUT
+{
+rotate_z:45
+}
+}
+
